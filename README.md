@@ -1,4 +1,4 @@
-##Key Value based DataStore:
+## Key Value based DataStore:
 
 ### Usage:
 
@@ -12,7 +12,7 @@ db = DataStore(save_directory='data')
 
 db.create_entry(Key, Value, TimetoLive)
 
-#####examples
+##### examples
 db.create_entry('key1', json.dumps([1]), 100)
 
 db.create_entry('key2', json.dumps([2]), 100)
