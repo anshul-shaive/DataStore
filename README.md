@@ -12,7 +12,7 @@ db = DataStore(save_directory='data')
 
 db.create_entry(Key, Value, TimetoLive)
 
-##### examples
+##### Examples
 db.create_entry('key1', json.dumps([1]), 100)
 
 db.create_entry('key2', json.dumps([2]), 100)
@@ -25,7 +25,7 @@ db.delete_entry('key2')
 #### Read entry
 db.read_entry('key1')
 
-#### close and release file lock
+#### Close and release file lock
 db.close()
 
 ### Run tests
